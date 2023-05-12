@@ -1,27 +1,3 @@
-# driver.find_element(By.XPATH, "//input[@id='billing_first_name']").send_keys("Arsen")
-# driver.find_element(By.XPATH, "//input[@id='billing_last_name']").send_keys("Wenger")
-# sleep(3)
-# driver.find_element(By.CSS_SELECTOR, "#select2-billing_country-container").click()
-# sleep(3)
-# driver.find_element(By.CLASS_NAME, "select2-search__field").send_keys("Uni")
-# sleep(3)
-# countries = (driver.find_elements(By.CSS_SELECTOR, ".select2-results__option"))
-# sleep(4)
-#
-# for country in countries:
-#     if country.text == "United Kingdom (UK)":
-#         country.click()
-#         break
-# sleep(4)
-# driver.find_element(By.CSS_SELECTOR, "#billing_address_1").send_keys("Via dell'Amore 14")
-# sleep(2)
-# driver.find_element(By.CSS_SELECTOR, "#billing_city").send_keys("Liverpool")
-# driver.find_element(By.CSS_SELECTOR, "#billing_postcode").send_keys("PO16 7GZ")
-# sleep(4)
-# driver.find_element(By.CSS_SELECTOR, "#ship-to-different-address-checkbox").click()
-# driver.find_element(By.CSS_SELECTOR, "#billing_phone").send_keys("(718) 763-1540")
-# driver.find_element(By.CSS_SELECTOR, "#billing_email").send_keys("abc@gmail.com")
-# sleep(5)
 from selenium.webdriver.common.by import By
 
 
